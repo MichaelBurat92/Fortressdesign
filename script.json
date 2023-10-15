@@ -45,7 +45,7 @@
     }
   ],
   "logo": {
-    "icon": "img/festung.png"
+    "icon": "/img/festung.png"
   },
   "menu": [
     {
@@ -71,7 +71,7 @@
   ],
   "header-picture": [
     {
-      "src": "./img/Festung.jpeg"
+      "src": "/img/Festung.jpeg"
     }
   ],
   "pages": {
