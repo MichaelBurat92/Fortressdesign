@@ -50,23 +50,23 @@
   "menu": [
     {
       "title": "Home",
-      "url": "?p=home"
+      "url": "./"
     },
     {
       "title": "Über uns",
-      "url": "?p=about"
+      "url": "./about"
     },
     {
       "title": "Leistungen",
-      "url": "?p=services"
+      "url": "./services"
     },
     {
       "title": "Referenzen",
-      "url": "?p=references"
+      "url": "./references"
     },
     {
       "title": "Kontakt",
-      "url": "?p=contact"
+      "url": "./contact"
     }
   ],
   "header-picture": [
