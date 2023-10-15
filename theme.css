@@ -37,3 +37,8 @@
 }
 #social-icons{
   width:20vw;
+}
+#social-icons a{
+  padding: 0 20px;
+}
+  
