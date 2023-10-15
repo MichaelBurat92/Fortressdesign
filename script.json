@@ -26,19 +26,19 @@
   "social": [
     {
       "url": "https://www.facebook.com/fortressdesign",
-      "icon": "<img src='/img/facebook.png' width='20' height='20' alt='Facebook' loding='lazy' />"
+      "icon": "/img/facebook.png"
     },
     {
       "url": "https://www.instagram.com/Fortessdesign/",
-      "icon": "<img src='/img/instagram.png' width='20' height='20' alt='Instagram' loading='lazy' />"
+      "icon": "/img/instagram.png"
     },
     {
       "url": "https://www.twitter.com/fortressdesign",
-      "icon": "<img src='/img/twitter.png' width='20' height='20' alt='Twitter' loading='lazy' />"
+      "icon": "/img/twitter.png"
     },
     {
       "url": "https://www.linkedin.com",
-      "icon": "<img src='/img/linkedin.png' width='20' height='20' alt='linkedin' loading='lazy'>"
+      "icon": "/img/linkedin.png"
     }
   ],
   "logo": {
