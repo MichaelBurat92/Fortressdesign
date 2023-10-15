@@ -73,5 +73,15 @@
     {
       "src": "./img/Festung.jpeg"
     }
-  ]
+  ],
+  "pages": {
+    "Home": {
+      "sitetitle": "<h1>Home</h1>",
+      "sitecontent": "<h2>Willkommen bei Fortressdesign</h2><br>Ihre Vision, unser Design! Willkommen bei Fortressdesign, Ihrem kreativen Partner für Webdesign, Grafikdesign und digitale Lösungen. Unsere Leidenschaft ist es, einzigartige und beeindruckende Designs zu schaffen, die Ihre Botschaft effektiv vermitteln.<br /><h2>Unsere Dienstleistungen</h2><br /><strong>Unsere vielfältigen Dienstleistungen decken ein breites Spektrum ab:<br />Webdesign:</strong> Wir gestalten ansprechende, benutzerfreundliche Websites, die Ihr Unternehmen oder Projekt optimal präsentieren.<br /><strong>Grafikdesign:</strong> Ob Logo, Flyer, Poster oder Social-Media-Grafiken – unsere Designs sprechen für sich.<br /><strong>Digitale Lösungen:</strong> Von der Entwicklung maßgeschneiderter Apps bis zur Optimierung Ihrer Online-Präsenz – wir bringen Ihr digitales Vorhaben auf das nächste Level.<br /><h2>Unsere Mission</h2><br />Unser Ziel ist es, Sie bei der Verwirklichung Ihrer Ideen zu unterstützen. Wir arbeiten eng mit Ihnen zusammen, um Ihre Visionen Wirklichkeit werden zu lassen. Kreativität, Funktionalität und Ästhetik stehen bei uns an erster Stelle.<br /><strong>Warum Fortressdesign?</strong><br/>Erfahrung: Mit Jahren in der Branche verfügen wir über umfassende Erfahrung in Design und Entwicklung.<br />Individuelle Lösungen: Wir wissen, dass jedes Projekt einzigartig ist. Daher entwickeln wir maßgeschneiderte Lösungen, die Ihren Anforderungen gerecht werden.<br />Kundenzufriedenheit: Die Zufriedenheit unserer Kunden hat für uns oberste Priorität. Wir arbeiten hart daran, Ihre Erwartungen zu übertreffen.<br/>Kontaktieren Sie uns noch heute, um Ihr nächstes Designprojekt zu besprechen. Lassen Sie uns gemeinsam Ihre Vision in die Realität umsetzen.<br/><strong>Wir freuen uns auf die Zusammenarbeit!</strong>"
+    },
+    "Über-uns": {
+      "sitetitle": "<h1>Über uns</h1>",
+      "sitecontent": "<p>Hier könnte der Text für die Seite 'Über uns' stehen.</p>"
+    }
+  }
 }
