@@ -78,5 +78,6 @@ margin: 10px 10px;
   width: calc(100vw - 15vw);
   background-size:cover;
   background-position: center;
+  margin: 0 auto;
 }
   
