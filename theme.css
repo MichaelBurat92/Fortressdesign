@@ -117,10 +117,20 @@ margin: 10px 10px;
 .leistungen{
   display:flex;
 }
+section{
+  width: calc(100vw / 4px)
+}
+section p{
+  font-size: 20px;
+}
 @media (max-width: 1090px){
   #page{
     margin: 0;
     width: 100%;
+  }
+  #leistungen{
+    width:100%:
+    display:block;
   }
 }
   
