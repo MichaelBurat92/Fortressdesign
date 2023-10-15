@@ -41,7 +41,7 @@
 #social-icons a{
   padding: 0 20px;
 }
-  #logo-container{
+#logo-container{
     display:flex;
   }
 .header-container{
@@ -56,12 +56,12 @@
 #menu{
 margin: 10px 10px;
   width: 80vw;
-  texct-align:right;
+  text-align:right;
 }
   
 #menu li{
   display: inline;
-  ppadding-top: 15px;
+  padding-top: 15px;
   line-height: 90px;
 }
 #menu li>a{
