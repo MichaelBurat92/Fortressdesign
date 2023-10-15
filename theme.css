@@ -98,7 +98,8 @@ margin: 10px 10px;
   color: #fff;
 }
 .right{
-  width: 50vw
+  width: 50vw;
+  line-height:50px;
 }
 #left{
   width: 50vw;
