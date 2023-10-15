@@ -95,9 +95,10 @@ margin: 10px 10px;
   padding: 20px;
   display:flex;
   background-color: #000;
+  color: #fff;
 }
 .right{
-  width: 50vw;
+  width: 50vw
 }
 #left{
   width: 50vw;
