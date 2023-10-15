@@ -47,10 +47,14 @@
 .header-container{
   width: calc(100vw - 15vw);
   margin: 0 auto;
+  display: flex;
 }
 #logo-text h1{
   padding:35px 0;
   font-family: Lato, sans-serif
 }
+#menu{
+  
 #menu li{
   display: inline;
+}
