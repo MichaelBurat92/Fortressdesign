@@ -104,9 +104,9 @@ margin: 10px 10px;
   width: 50vw;
   text-align: end;
 }
-#left li{
+#left ul>li{
   display: flex;
   line-height: 50px;
-  ]
+}
   
   
