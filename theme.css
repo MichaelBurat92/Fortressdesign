@@ -74,6 +74,9 @@ margin: 10px 10px;
   color: #333;
 }
 #headerbackground{
-  height:550px
+  height:550px;
   width: calc(100vw - 15vw);
+  background-size:cover;
+  background-position: center;
+}
   
