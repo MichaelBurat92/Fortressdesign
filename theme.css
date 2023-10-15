@@ -67,3 +67,8 @@ margin: 10px 10px;
   padding:25px;
   color: #000;
 }
+#menu li>a:hover{
+  transition: .45s all ease-out;
+  color: #333;
+}
+  
