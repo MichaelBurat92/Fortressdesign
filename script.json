@@ -90,6 +90,10 @@
     "Referenzen":{
       "sitetitle":"<h1>Referenzen</h1>",
       "sitecontent": "<h2>Unsere Referenzen</h2> <div class='inner-page'><section><img src='#' width='220px' height='220' loading='lazy'><h2>Landgasthof Hedderich</h2><p>In bearbeitung</p></section><section></div>"
+    },
+    "kontakt":{
+      "sitetitle": "<h1>Kontakte</h1>",
+      "sitecontent":"<h2>Hier können sie uns eine Nachricht schreiben!"
     }
 },
   "footer-menu":[
