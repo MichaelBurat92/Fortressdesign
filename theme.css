@@ -82,6 +82,7 @@ margin: 10px 10px;
 }
 #page{
   width: calc(100vw - 15vw);
+  padding: 20px;
   margin: 0 auto;
   font-family: Lato, sans-serif;
   font-size:20px;
