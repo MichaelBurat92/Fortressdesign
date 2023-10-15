@@ -85,7 +85,7 @@
     },
     "services":{
       "sitetitle": "<h1>Leistungen</h1>",
-      "sitecontent": "<h2>Unsere Leistungungen im <span style='color: #5b637c;'>Überblick</span></h2><section><img src='./img/webdesign.png' width='220' height='220' loading='lazy'><h2>Webdesign</h2></section>"
+      "sitecontent": "<h2>Unsere Leistungen im <span style='color: #5b637c;'>Überblick</span></h2><section><img src='./img/webdesign.png' width='220' height='220' loading='lazy'><h2>Webdesign</h2></section>"
   },
     "Referenzen":{
       "sitetitle":"<h1>Referenzen</h1>",
