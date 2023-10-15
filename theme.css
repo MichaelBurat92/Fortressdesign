@@ -10,4 +10,6 @@ background-color: #000;
   display:flex;
 }
 .topbar-content{
-  width: calc(
+  width: calc(100vw - 15vw);
+  margin: 0 auto;
+}
