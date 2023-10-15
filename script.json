@@ -68,9 +68,7 @@
       "title": "Kontakt",
       "url": "?p=contact"
     },
-    {
-      "title": "<img src='/img/icons8-menu-squared-50(1).png'  width='20px' height='20px' id='responsive' loding='lazy'>",
-      "url": "#"
+    
     }
   ],
   "header-picture": [
