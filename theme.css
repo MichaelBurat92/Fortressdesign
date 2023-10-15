@@ -127,6 +127,7 @@ section p{
 }
 input{
   width: 100vw;
+  padding:15px 18px;
 }
 @media (max-width: 1090px){
   #page{
