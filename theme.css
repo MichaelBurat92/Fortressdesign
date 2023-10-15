@@ -55,6 +55,8 @@
 }
 #menu{
 margin: 10px 10px;
+  width: 80vw;
+  texct-align:end;
 }
   
 #menu li{
