@@ -73,4 +73,7 @@ margin: 10px 10px;
   transition: .45s all ease-out;
   color: #333;
 }
+#headerbackground{
+  height:550px
+  width: calc(100vw - 15vw);
   
