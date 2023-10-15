@@ -29,19 +29,19 @@
   "social": [
     {
       "url": "https://www.facebook.com/Fortressdesign",
-      "icon": "./img/facebook.png"
+      "icon": "/img/facebook.png"
     },
     {
       "url": "https://www.instagram.com/Fortessdesign/",
-      "icon": "./img/instagram.png"
+      "icon": "/img/instagram.png"
     },
     {
       "url": "https://www.twitter.com/fortressdesign",
-      "icon": "./img/twitter.png"
+      "icon": "/img/twitter.png"
     },
     {
       "url": "https://www.linkedin.com",
-      "icon": "./img/linkedin.png"
+      "icon": "/img/linkedin.png"
     }
   ],
   "logo": {
@@ -50,23 +50,23 @@
   "menu": [
     {
       "title": "Home",
-      "url": "./"
+      "url": "/"
     },
     {
       "title": "Über uns",
-      "url": "./about"
+      "url": "/about"
     },
     {
       "title": "Leistungen",
-      "url": "./services"
+      "url": "/services"
     },
     {
       "title": "Referenzen",
-      "url": "./references"
+      "url": "/references"
     },
     {
       "title": "Kontakt",
-      "url": "./contact"
+      "url": "/contact"
     }
   ],
   "header-picture": [
