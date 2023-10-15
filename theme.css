@@ -44,3 +44,7 @@
   #logo-container{
     display:flex;
   }
+.header-container{
+  width: calc(100vw - 15vw);
+  margin: 0 auto;
+}
