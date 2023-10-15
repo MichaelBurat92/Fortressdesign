@@ -82,6 +82,9 @@
     "Über-uns": {
       "sitetitle": "<h1>Über uns</h1>",
       "sitecontent": "<p>Hier könnte der Text für die Seite 'Über uns' stehen.</p>"
-    }
+    },
+    "services":{
+      "sitetitle": "<h1>Leistungen</h1>",
+      "sitecontent": "<h2>unser Leistungs <span style="color:>Auszug</span></h2><section><img src="./img/webdesign.png" width="220" height="220" loading="lazy"><h2>Webdesign</h2></section>
   }
 }
