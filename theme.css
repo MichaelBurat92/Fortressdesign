@@ -105,7 +105,7 @@ margin: 10px 10px;
   text-align: end;
 }
 #left ul>li{
-  display: flex;
+  display: inline;
   line-height: 50px;
 }
   
