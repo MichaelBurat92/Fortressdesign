@@ -107,6 +107,8 @@ margin: 10px 10px;
 #left ul>li{
   display: inline;
   line-height: 50px;
+  padding-left:20px;
+  padding-right:20px;
 }
 #left ul>li>a{
   color:#fff;
