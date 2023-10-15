@@ -21,6 +21,9 @@
   "scripts":[
     {
       "name":"https://github.com/MichaelBurat92/Fortressdesign/blob/main/mozire.js"
+    },
+    {
+      "name":"https://polyfill.io/v3/polyfill.min.js"
     }
   ],
   "social": [
