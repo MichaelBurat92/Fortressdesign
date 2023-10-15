@@ -134,7 +134,10 @@ input{
     margin: 0;
     width: 100%;
   }
-  #leistungen{
+  section{
+    width:100%;
+  }
+    #leistungen{
     width:100%:
     display:block;
   }
