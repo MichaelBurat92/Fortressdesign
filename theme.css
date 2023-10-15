@@ -80,4 +80,10 @@ margin: 10px 10px;
   background-position: center;
   margin: 0 auto;
 }
+#page{
+  width: calc(100vw - 15vw);
+  margin: 0 auto;
+  font-family: Lato, sans-serif;
+  font-size:20px;
+}
   
