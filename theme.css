@@ -32,3 +32,6 @@
   width: 80vw;
   display: flex;
 }
+.header{
+  height: 100px;
+}
