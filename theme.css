@@ -9,3 +9,5 @@ background-color: #000;
   font-family: "Roboto", sans-serif;
   display:flex;
 }
+.topbar-content{
+  width: calc(
