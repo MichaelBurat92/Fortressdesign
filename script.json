@@ -45,7 +45,7 @@
     }
   ],
   "logo": {
-    "icon": "./img/festung.png"
+    "icon": "img/festung.png"
   },
   "menu": [
     {
