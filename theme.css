@@ -60,7 +60,7 @@ margin: 10px 10px;
 #menu li{
   display: inline;
   ppadding-top: 15px;
-  line-height: 25px;
+  line-height: 100px;
 }
 #menu li>a{
   font-family: Lato, sans-serif;
