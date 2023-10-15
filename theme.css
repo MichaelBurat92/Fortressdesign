@@ -48,6 +48,6 @@
   width: calc(100vw - 15vw);
   margin: 0 auto;
 }
-h1{
+#logo-text h1{
   padding:45px 0;
 }
