@@ -1,3 +1,73 @@
-[
-  {
-    "title" :"Fortressdesign"
+{
+  "name": "Fortressdesign",
+  "short_name": "App",
+  "version": "1.0.0b",
+  "description": "Description of your app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "title": "Fortressdesign",
+  "city": "Wetzlar / Dutenhofen",
+  "telefon": "0177 2252248",
+  "email": "info@fortressdesign.eu",
+  "social": [
+    {
+      "url": "https://www.facebook.com/fortressdesign",
+      "icon": "<img src='/img/facebook.png' width='20' height='20' alt='Facebook' loding='lazy' />"
+    },
+    {
+      "url": "https://www.instagram.com/Fortessdesign/",
+      "icon": "<img src='/img/instagram.png' width='20' height='20' alt='Instagram' loading='lazy' />"
+    },
+    {
+      "url": "https://www.twitter.com/fortressdesign",
+      "icon": "<img src='/img/twitter.png' width='20' height='20' alt='Twitter' loading='lazy' />"
+    },
+    {
+      "url": "https://www.linkedin.com",
+      "icon": "<img src='/img/linkedin.png' width='20' height='20' alt='linkedin' loading='lazy'>"
+    }
+  ],
+  "logo": {
+    "icon": "/img/festung.png"
+  },
+  "menu": [
+    {
+      "title": "Home",
+      "url": "?p=home"
+    },
+    {
+      "title": "Über uns",
+      "url": "?p=about"
+    },
+    {
+      "title": "Leistungen",
+      "url": "?p=services"
+    },
+    {
+      "title": "Referenzen",
+      "url": "?p=references"
+    },
+    {
+      "title": "Kontakt",
+      "url": "?p=contact"
+    },
+    {
+      "title": "<img src='/img/icons8-menu-squared-50(1).png'  width='20px' height='20px' id='responsive' loding='lazy'>",
+      "url": "#"
+    }
+  ],
+  "header-picture": [
+    {
+      "src": "/img/Festung.png"
+    }
+  ]
+}
