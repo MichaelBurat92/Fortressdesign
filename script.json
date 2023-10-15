@@ -85,7 +85,7 @@
     },
     "services":{
       "sitetitle": "<h1>Leistungen</h1>",
-      "sitecontent": "<h2>Unsere Leistungen im <span style='color: #5b637c;'>Überblick</span></h2><div class='leistungen'><section><img src='/img/webdesign.webp' width='220' height='220' loading='lazy'><h3>Webdesign</h3></section><section><img src='/img/Seo.png' width='220' height='220' loading='lazy'><h3>Suchmascheinenoptimierung</h3></section><section><img src='/img/website.png' width='220' height='220' loading='lazy'><h3>Websitepflege</h3></div>"
+      "sitecontent": "<h2>Unsere Leistungen im <span style='color: #5b637c;'>Überblick</span></h2><div class='leistungen'><section><img src='/img/webdesign.webp' width='220' height='220' loading='lazy'><h3>Webdesign</h3></section><section><img src='/img/Seo.png' width='220' height='220' loading='lazy'><h3>Suchmascheinenoptimierung</h3></section><section><img src='/img/website.png' width='220' height='220' loading='lazy'><h3>Websitepflege</h3></section></div>"
   },
     "Referenzen":{
       "sitetitle":"<h1>Referenzen</h1>",
