@@ -89,7 +89,7 @@
   },
     "Referenzen":{
       "sitetitle":"<h1>Referenzen</h1>",
-      "sitecontent": ""
+      "sitecontent": "<h2>Unsere Referenzen</h2> <section><img src='#' width='220px' height='220' loading='lazy'><h2>Landgasthof Hedderich</h2></section>"
     }
 },
   "footer-menu":[
