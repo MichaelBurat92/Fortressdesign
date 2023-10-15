@@ -114,6 +114,9 @@ margin: 10px 10px;
 #left ul>li>a{
   color:#fff;
 }
+.leistungen{
+  display:flex;
+}
 @media (max-width: 1090px){
   #page{
     margin: 0;
