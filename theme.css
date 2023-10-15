@@ -41,4 +41,6 @@
 #social-icons a{
   padding: 0 20px;
 }
-  
+  #logo-container{
+    display:flex;
+  }
