@@ -59,6 +59,7 @@ margin: 10px 10px;
   
 #menu li{
   display: inline;
+  ppadding-top: 15px;
 }
 #menu li>a{
   font-family: Lato, sans-serif;
