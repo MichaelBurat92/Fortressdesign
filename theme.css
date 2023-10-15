@@ -12,4 +12,5 @@ background-color: #000;
 .topbar-content{
   width: calc(100vw - 15vw);
   margin: 0 auto;
+  display: flex;
 }
