@@ -91,5 +91,19 @@
       "sitetitle":"<h1>Referenzen</h1>",
       "sitecontent": ""
     }
-}
+},
+  "footer-menu":[
+    {
+    "name": "Login",
+    "url": "/admin/"
+    },
+    {
+      "name": "Impressum",
+      "url": "/impressum"
+    },
+    {
+      "name": "Datenschutzerklärung",
+      "url": "/datenschutzerklärung"
+    }
+  ]
 }
