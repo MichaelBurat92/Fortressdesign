@@ -129,7 +129,7 @@ section p{
   font-size: 20px;
 }
 input{
-  width: 100%;
+  width: 80%;
   padding:15px 18px;
 }
 @media (max-width: 1090px){
