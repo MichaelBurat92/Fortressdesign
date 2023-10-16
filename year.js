@@ -14,3 +14,4 @@ var currentDate = new Date();
 var currentYear2 = currentDate.getFullYear() + 2;
 const bis = document.getElementById('bis');
 bis.innerHTML = currentYear2;
+document.title = 'Fortressdesign - Startseite';
