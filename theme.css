@@ -147,7 +147,7 @@ input{
 #headerbackground{
   width: 100%;
   margin:0 0:
-  #menu{
+  #menu ul>li{
     display: none;
   }
 #social-icon{
