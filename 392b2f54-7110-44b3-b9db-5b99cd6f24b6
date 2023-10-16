@@ -1,1 +1,104 @@
+// URL of the JSON file on GitHub
+  const jsonURL = 'https://raw.githubusercontent.com/MichaelBurat92/Fortressdesign/main/script.json';
+  
+  // Function to load and display all the properties
+  function loadAllProperties(url) {
+      fetch(url)
+          .then(response => {
+              if (!response.ok) {
+                  throw new Error('Network response was not ok');
+              }
+              return response.json();
+          })
+          .then(data => {
+              // Set the retrieved properties as the content of HTML elements
+              if (data.city) {
+                  const cityElement = document.getElementById('city');
+                  cityElement.textContent = data.city;
+              }
+              if (data.telefon) {
+                  const phoneElement = document.getElementById('phone');
+                  phoneElement.textContent = data.telefon;
+              }
+              if (data.email) {
+                  const emailElement = document.getElementById('emailElement');
+                  emailElement.textContent = data.email;
+              }
+              if(data.name){
+                const h1Element = document.createElement('h1');
+        h1Element.textContent = data.name;
 
+        // Insert the <h1> element into the HTML element with the id "logo.text"
+        const logoTextElement = document.getElementById('logo-text');
+        logoTextElement.appendChild(h1Element);
+                            }
+              if (data.social && Array.isArray(data.social)) {
+                  const socialIconsElement = document.getElementById('social-icons');
+                  data.social.forEach(socialItem => {
+                      const anchorTag = document.createElement('a');
+                      const iconImage = document.createElement('img');
+                      anchorTag.href = socialItem.url;
+                      iconImage.src = socialItem.icon;
+                      iconImage.alt = 'Social Icon';
+                      iconImage.width = '20';
+                      iconImage.setAttribute('loading', 'lazy');
+                      iconImage.height = '20';
+                      anchorTag.appendChild(iconImage);
+                      socialIconsElement.appendChild(anchorTag);
+                  });
+              }
+              if (data.logo && data.logo.icon) {
+                  const logoElement = document.getElementById('logo');
+                  const image = document.createElement('img');
+                  image.src = data.logo.icon;
+                  image.alt = 'Logo';
+                  image.setAttribute('loading', 'lazy');
+                  image.width = '100';
+                    image.height = '100';
+                  logoElement.appendChild(image);
+              }
+              if (data.menu && Array.isArray(data.menu)) {
+                        const menuList = document.getElementById('menu');
+                        data.menu.forEach(menuItem => {
+                            const listItem = document.createElement('li');
+                            const link = document.createElement('a');
+                            link.href = menuItem.url;
+                            link.textContent = menuItem.title;
+                            listItem.appendChild(link);
+                            menuList.appendChild(listItem);
+                        });
+                    }
+                    if (data['header-picture'] && Array.isArray(data['header-picture']) && data['header-picture'].length > 0) {
+                        const headerBackgroundElement = document.getElementById('headerbackground');
+                        headerBackgroundElement.style.backgroundImage = `url(${data['header-picture'][0].src})`;
+                    }
+
+             // Display "pages" content for the "Home" page
+                    const pages = data.pages;
+                    const pageElement = document.getElementById('page');
+                    pageElement.innerHTML = pages.kontakt.sitecontent;
+                    const faviconElement = document.querySelector('link[rel="icon"]');
+                    faviconElement.href = data.header-picture[0].src;
+
+                    footerData.forEach(function (item) {
+                var listItem = document.createElement('li');
+                var link = document.createElement('a');
+                link.href = item.url;
+                link.textContent = item.name;
+
+                listItem.appendChild(link);
+                menuList.appendChild(listItem);
+            });
+
+            leftContainer.appendChild(menuList);
+
+          })
+          .catch(error => {
+              console.error('There was a problem with the fetch operation:', error);
+          });
+          const faviconElement = document.querySelector('link[rel="icon"]');
+                    faviconElement.href = data.header-picture[0].src;
+  }
+
+  // Call the function to load and display all properties
+  loadAllProperties(jsonURL);
